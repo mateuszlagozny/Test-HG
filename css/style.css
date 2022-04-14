@@ -1,0 +1,86 @@
+body {
+  background-color: red;
+  color: #ffff;
+  line-height: 1.5;
+  margin: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.title {
+  font-size: 50px;
+}
+
+a {
+  color: #ffff;
+  padding-left: 20px;
+}
+
+.main-contener {
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .main-contener {
+    flex-direction: column;
+  }
+}
+
+.questionnaire {
+  display: block;
+  background-color: #ffff;
+  color: black;
+  border-radius: 10%;
+  margin: 30px;
+  padding: 30px;
+}
+
+.footer {
+  text-align: center;
+  display: flex;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+.separate {
+  height: auto;
+}
+
+.icons-social-media {
+  color: #ffff;
+  width: 20px;
+  height: 20px;
+}
+
+.button {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.btn {
+  border-radius: 10%;
+  background-color: red;
+  color: #fff;
+  border: 0;
+}
+
+input {
+  border-radius: 50%;
+  border-color: red;
+}
+/*# sourceMappingURL=style.css.map */

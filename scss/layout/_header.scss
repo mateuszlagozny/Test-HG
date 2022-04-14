@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+    align-items: center; 
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+ 
+};
+
+.title {
+    font-size: 50px;
+};
+
+a {
+color: $secondary-color;
+padding-left: 20px;
+
+};

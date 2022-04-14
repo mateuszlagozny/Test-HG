@@ -1,0 +1,11 @@
+.footer {
+    text-align: center;
+    display: flex;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
+}
+.separate {
+    height: auto;
+}
