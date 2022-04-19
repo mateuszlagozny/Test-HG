@@ -1,15 +1,16 @@
 .button {
     text-align: center;
     padding-bottom: 25px;
-}
-.btn {
-    
-    
-    border-radius: 10%;
-    background-color: $primary-color;
-    color: #fff;
-    border: 0;
 
-   
+    &__sendForm {
+    
+        background-color: $primary-color;
+        color: #fff;
+        border: none;
+        width: 100px;
+        height: 35px;
+        margin-top: 50px;
+
+}
    
 }

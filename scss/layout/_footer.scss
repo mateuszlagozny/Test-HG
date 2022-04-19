@@ -1,11 +1,47 @@
 .footer {
-    text-align: center;
+    
+    margin-top: 50px;
     display: flex;
+    justify-content: center;
 
     @media screen and (max-width: 767px) {
         flex-direction: column;
-    }
-}
-.separate {
-    height: auto;
-}
+        text-align: center;
+    };
+
+    &__contact{
+        margin-right: 15px;
+
+
+        &:after {
+            position: absolute;
+            content: "";
+            height: 45px;
+            width: 2px;
+            background-color: $secondary-color;
+            margin-top: -25px;
+            margin-left: 10px;
+
+            @media screen and (max-width: 767px){
+                height: 2px;
+                width: 85px;
+                margin-top: 30px;
+                margin-left: -210px;
+            };
+    
+        };
+    
+    };
+
+    &__info {
+        margin-right: 15px; 
+
+        @media screen and (max-width: 767px) {
+            margin-top: 15px;
+        };
+    };
+
+    
+
+    
+};

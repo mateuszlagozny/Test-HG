@@ -31,56 +31,52 @@
     </div>
 </header>
  
-<main class="main-content">
-    <div class="main-contener">
-        <section class="abuot">
-            <h2 class="title">Kampf den gefahrlihen vier</h2>
+<main class="main-container">
+    <div class="main-content">
+        <section class="main-content__about">
+            <h2 class="main-content__title">Kampf den gefahrlihen vier</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis voluptatem commodi temporibus enim, rem necessitatibus, labore praesentium quidem perferendis optio natus, voluptate esse molestiae dolore! Modi itaque repellat atque perferendis iste dolor placeat quisquam pariatur deserunt amet, suscipit provident commodi!</p>
             <span class="separate-horizontal"></span>
         </section>
 
         <section class="questionnaire">
-            <h3 class="question">Zu welchen themen wollen sie eine e-mail mit hilfreichen tips und trikcs erhalten</h3>
-            <form action="#" class="form">
-                <input type="checkbox" name="one" class="answer">
+            <h3 class="questionnaire__question">Zu welchen themen wollen sie eine e-mail mit hilfreichen tips und trikcs erhalten?</h3>
+            <form action="#" class="questionnaire__form">
+                <input id="firstChbx" type="checkbox" name="one" class="questionnaire__form-checkbox">
              
-                <label for="">
+                <label  for="" class="questionnaire__form-answer" >
                     <strong>Bewagung</strong><br>Lorem ipsum dolor sit amet consectetur <br>
                 </label>
               
            
-                <input type="checkbox" name="two" class="answer" >
+                <input id="secondChbx" type="checkbox" name="two" class="questionnaire__form-checkbox" >
               
-                <label for="">
-                    <strong>Bewagung</strong><br>Lorem ipsum dolor sit amet consectetur <br>
+                <label  for="" class="questionnaire__form-answer">
+                    <strong>Gesunde Ernahrung</strong><br>Lorem ipsum dolor sit amet consectetur <br>
                 </label>
                
             
             
-                <input type="checkbox" name="three" class="answer">
+                <input id="thirdChbx" type="checkbox" name="three" class="questionnaire__form-checkbox">
                
-                <label for="">
-                    <strong>Bewagung</strong><br>Lorem ipsum dolor sit amet consectetur <br>
+                <label  for="" class="questionnaire__form-answer">
+                    <strong>Rauchen and Alkoholconsum</strong><br>Lorem ipsum dolor sit amet consectetur <br>
                 </label>
                
             
             
-                <input type="checkbox" name="four" class="answer__four">
+                <input id="fourthChbx" type="checkbox" name="four" class="questionnaire__form-checkbox" onclick="change()">
               
-                <label for="">
+                <label for="" class="questionnaire__form-answer">
                     <strong>Nein Danke</strong><br>Lorem ipsum dolor sit amet consectetur <br>
                 </label>
                 
-              
-            </form>
 
-        
-            
-                
-                
+            </form>
+   
 
             <div class="button">
-                <button class="btn">Abschicken</button>
+                <button class="button__sendForm">Abschicken</button>
             </div>
             
         </section>
@@ -90,15 +86,15 @@
 </main>
 
 <footer class="footer">
-    <div>
-        <div>Strona Testowa</div>
+    <div class="footer__contact">
+        <a href="index.html" >Strona Testowa</a><br>
         <a href="#">Teilnahmebedingungen</a>
         <a href="#">Regulamin</a>
         <a href="#">Contact</a>
-        <span class="separate">|</span> 
+        <span class="separate"></span> 
     </div>
     
-    <div>
+    <div class="footer__info">
         <h4>Lorem Ipsum</h4>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
     </div>

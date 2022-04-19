@@ -11,7 +11,7 @@
 };
 
 .title {
-    font-size: 50px;
+    font-size:60px;
 };
 
 a {
@@ -19,3 +19,12 @@ color: $secondary-color;
 padding-left: 20px;
 
 };
+
+.link::after {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 3px;
+    color: aqua;
+    
+}
